@@ -41,6 +41,10 @@ public class CustomerJava {
                 '}';
     }
 
+    public void prettyPrint() {
+        System.out.printf("Id: %d - Name %s", id , name);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
