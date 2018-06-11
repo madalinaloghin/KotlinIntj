@@ -31,5 +31,9 @@ public class TalkingToKotlin {
 
         customerKotlin.preferential();
 
+
+        UtilityClass.prefix("some", "value");
+        int copyrightYear = UtilityClass.copyrightYear;
+
     }
 }
